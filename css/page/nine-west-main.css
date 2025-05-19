@@ -1,0 +1,56 @@
+.event {
+    width: 100%;
+}
+
+.cover {
+    width: 100%;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 20px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #0009;
+    border-radius: 5px;
+}
+
+.dot2 {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.boots-foto {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.boots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.boots img {
+   width: 30%;
+   margin-bottom: 20px;
+}
+
+.boots a {
+    text-decoration: none;
+    color: #000;
+}
+
+.boots a:hover {
+    text-decoration: underline;
+}
