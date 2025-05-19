@@ -14,6 +14,33 @@
     width: 50%;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
 .first-section {
     width: 100%;
 }
+
+.midlle-section {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.sale {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
