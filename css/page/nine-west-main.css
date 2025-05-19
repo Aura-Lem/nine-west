@@ -143,3 +143,25 @@
     display: flex;
     margin-bottom: 30px;
 }
+
+.love {
+    display: flex;
+    flex-direction: row;
+    background-color: #CDD3E0;
+    width: 100%;
+    align-items: center;
+}
+
+.love img {
+    margin-left: 400px;
+}
+
+.receive-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 13%;
+    line-height: 2rem;
+}
+
