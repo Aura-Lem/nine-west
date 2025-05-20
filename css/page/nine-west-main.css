@@ -147,21 +147,45 @@
 .love {
     display: flex;
     flex-direction: row;
+    align-items: center;
     background-color: #CDD3E0;
     width: 100%;
-    align-items: center;
 }
 
 .love img {
-    margin-left: 400px;
+    margin-left: 300px;
+    width: 20%;
 }
 
 .receive-text {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
-    width: 13%;
+    width: 80%;
+    margin-right: 550px;
     line-height: 2rem;
 }
 
+.receive-text h1 {
+    text-transform: uppercase;
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.line .bold {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.more {
+    margin-top: 20px;
+    font-size: 25px;
+}
