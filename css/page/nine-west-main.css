@@ -189,3 +189,64 @@
     margin-top: 20px;
     font-size: 25px;
 }
+
+@media (max-width: 1655px) {
+    .two-foto {
+        flex-direction: column;
+    }
+
+    .block-trio {
+        flex-direction: column;
+    }
+
+    .love > img {
+        margin-left: 50px;
+    }
+
+    .receive-text {
+        margin-right: 150px;
+    }
+
+    .receive-text h1 {
+        font-size: 30px;
+    }
+
+    .line {
+        font-size: 20px;
+    }
+
+    .more {
+        font-size: 15px
+    }
+}
+
+@media (max-width: 1100px) {
+    .bottom-section {
+        width: 90%;
+    }
+
+    .text {
+        width: 30%;
+    }
+
+    .foto-block {
+        display: flex;
+        flex-direction: column
+    }
+}
+
+@media (max-width: 950px) {
+    .text {
+        width: 50%;
+        font-size: 15px;
+        line-height: 2rem;
+    }
+}
+
+@media (max-width: 630px) {
+    .text {
+        width: 50%;
+        font-size: 12px;
+        line-height: 1.2rem;
+    }
+}

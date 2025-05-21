@@ -59,3 +59,24 @@ input {
     padding: 8px;
 }
 
+@media (max-width: 1100px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .nav-bar {
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .nav {
+        font-size: 10px;
+    }
+}
+
